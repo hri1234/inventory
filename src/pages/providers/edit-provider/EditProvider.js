@@ -6,7 +6,8 @@ const EditProvider = () => {
     return (
         <div className="editProvider-container">
 
-            <div className="text">Editar Proveedor</div>
+            <div className="text">
+Edit Provider</div>
 
         </div>
     );

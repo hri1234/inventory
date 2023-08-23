@@ -6,7 +6,7 @@ const EditItem = () => {
     return (
         <div className="editItem-container">
 
-            <div className="text">Editar Artículo</div>
+            <div className="text">Edit items</div>
 
         </div>
     );

@@ -16,13 +16,13 @@ const Sales = () => {
     return (
         <div className="sales-container">
 
-            <div className="text">Ventas</div>
+            <div className="text">sales</div>
 
             <div className="options">
                 <SearchBox onSearch={handleSearch} />
                 <Link to="/new-sale" class="add-box">
                     <FontAwesomeIcon icon={faPlus} className="icon" />
-                    <span class="text">Nueva venta</span>
+                    <span class="text">new salees</span>
                 </Link>
             </div>
 
@@ -31,11 +31,13 @@ const Sales = () => {
                     <thead>
                         <tr>
                             <th>ID</th>
-                            <th>FECHA</th>
-                            <th>CLIENTE</th>
-                            <th>USUARIO</th>
+                            <th>
+DATE</th>
+                            <th>client</th>
+                            <th>
+USER</th>
                             <th>TOTAL</th>
-                            <th>DETALLES</th>
+                            <th>details</th>
                             <th>ACCIONES</th>
                         </tr>
                     </thead>

@@ -6,7 +6,7 @@ const EditUser = () => {
     return (
         <div className="editUser-container">
 
-            <div className="text">Editar Usuario</div>
+            <div className="text">Edit users</div>
 
         </div>
     );

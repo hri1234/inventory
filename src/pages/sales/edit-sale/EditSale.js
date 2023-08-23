@@ -6,7 +6,8 @@ const EditSale = () => {
     return (
         <div className="editSale-container">
 
-            <div className="text">Editar Venta</div>
+            <div className="text">
+Edit Sale</div>
 
         </div>
     );

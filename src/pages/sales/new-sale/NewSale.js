@@ -6,7 +6,7 @@ const NewSale = () => {
     return (
         <div className="newSale-container">
 
-            <div className="text">Nueva Venta</div>
+            <div className="text">new sale</div>
 
         </div>
     );

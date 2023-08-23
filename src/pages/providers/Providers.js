@@ -16,13 +16,14 @@ const Providers = () => {
     return (
         <div className="providers-container">
 
-            <div className="text">Proveedores</div>
+            <div className="text">Suppliers</div>
 
             <div className="options">
                 <SearchBox onSearch={handleSearch} />
                 <Link to="/new-provider" class="add-box">
                     <FontAwesomeIcon icon={faPlus} className="icon" />
-                    <span class="text">Nuevo proveedor</span>
+                    <span class="text">
+New supplier</span>
                 </Link>
             </div>
 
@@ -31,10 +32,10 @@ const Providers = () => {
                     <thead>
                         <tr>
                             <th>ID</th>
-                            <th>NOMBRE</th>
-                            <th>TELÉFONO</th>
+                            <th>Name</th>
+                            <th>TElephone</th>
                             <th>EMAIL</th>
-                            <th>ACCIONES</th>
+                            <th>ACcess</th>
                         </tr>
                     </thead>
                     <tbody>

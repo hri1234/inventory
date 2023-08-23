@@ -16,13 +16,14 @@ const Purchases = () => {
     return (
         <div className="purchases-container">
 
-            <div className="text">Compras</div>
+            <div className="text">Purchase</div>
 
             <div className="options">
                 <SearchBox onSearch={handleSearch} />
                 <Link to="/new-purchase" class="add-box">
                     <FontAwesomeIcon icon={faPlus} className="icon" />
-                    <span class="text">Nueva compra</span>
+                    <span class="text">
+New purchase</span>
                 </Link>
             </div>
 
@@ -31,10 +32,11 @@ const Purchases = () => {
                     <thead>
                         <tr>
                             <th>ID</th>
-                            <th>FECHA</th>
+                            <th>
+DATE</th>
                             <th>TOTAL</th>
-                            <th>PROVEEDOR</th>
-                            <th>USUARIO</th>
+                            <th>SUPPLIER</th>
+                            <th>USER</th>
                             <th>DETALLES</th>
                             <th>ACCIONES</th>
                         </tr>

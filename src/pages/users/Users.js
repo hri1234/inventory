@@ -16,13 +16,14 @@ const Users = () => {
     return (
         <div className="users-container">
 
-            <div className="text">Usuarios</div>
+            <div className="text">
+users</div>
 
             <div className="options">
                 <SearchBox onSearch={handleSearch} />
                 <Link to="/new-user" class="add-box">
                     <FontAwesomeIcon icon={faPlus} className="icon" />
-                    <span class="text">Nuevo usuario</span>
+                    <span class="text">New users</span>
                 </Link>
             </div>
 
@@ -31,9 +32,10 @@ const Users = () => {
                     <thead>
                         <tr>
                             <th>ID</th>
-                            <th>NOMBRE</th>
-                            <th>USUARIO</th>
-                            <th>TELÉFONO</th>
+                            <th>NUMBER</th>
+                            <th>
+USER</th>
+                            <th>TELÉphone</th>
                             <th>EMAIL</th>
                             <th>ADMIN</th>
                             <th>ACCIONES</th>
@@ -45,7 +47,7 @@ const Users = () => {
                             <td>Pedro Pablo</td>
                             <td>pedropablo</td>
                             <td>3208561452</td>
-                            <td>pedropablov@gmail.com</td>
+                            <td>hritikpnadey@gmail.com</td>
                             <td>Si</td>
                             <td>
                                 <Link to={`/edit-user/${1}`}>
@@ -56,10 +58,10 @@ const Users = () => {
                         </tr>
                         <tr>
                             <td>2</td>
-                            <td>Felipe Villamizar</td>
+                            <td>Hritikpnadeyt</td>
                             <td>felipevc</td>
                             <td>3148933577</td>
-                            <td>felipevillamizarc@gmail.com</td>
+                            <td>hritikpandey2019@gmail.com</td>
                             <td>Si</td>
                             <td>
                                 <Link to={`/edit-user/${2}`}>

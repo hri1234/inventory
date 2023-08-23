@@ -6,7 +6,7 @@ const DetailSale = () => {
     return (
         <div className="detailSale-container">
 
-            <div className="text">Detalle Venta</div>
+            <div className="text">Sale Detail</div>
 
         </div>
     );

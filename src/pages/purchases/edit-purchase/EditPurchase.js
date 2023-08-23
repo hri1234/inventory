@@ -6,7 +6,8 @@ const EditPurchase = () => {
     return (
         <div className="editPurchase-container">
 
-            <div className="text">Editar Compra</div>
+            <div className="text">
+Edit Purchase</div>
 
         </div>
     );

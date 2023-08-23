@@ -103,13 +103,13 @@ const Login = () => {
             <div className="login-content">
                 <form onSubmit={handleFormSubmit}>
                     <img src={avatar} alt="login-avatar" />
-                    <h2 className="title">Inicia sesión</h2>
+                    <h2 className="title">Log in</h2>
                     <div className="input-div one">
                         <div className="icon">
                             <FontAwesomeIcon icon={faUser} className="i" />
                         </div>
                         <div className="div">
-                            <h5>Usuario</h5>
+                            <h5>User id</h5>
                             <input type="text" className="input" value={username} onChange={handleUsernameChange} required />
                         </div>
                     </div>
@@ -118,7 +118,7 @@ const Login = () => {
                             <FontAwesomeIcon icon={faLock} className="i" />
                         </div>
                         <div className="div">
-                            <h5>Contraseña</h5>
+                            <h5>Password</h5>
                             <input type={showPassword ? 'text' : 'password'} className="input" value={password} onChange={handlePasswordChange} required />
                             <div className="icon">
                                 <FontAwesomeIcon
@@ -129,9 +129,9 @@ const Login = () => {
                             </div>
                         </div>
                     </div>
-                    <Link to="/forgot-login">¿Olvidaste tu contraseña?</Link>
+                    <Link to="/forgot-login">Did you forget your password?</Link>
                     <button type="submit" className="btn">
-                        Entrar
+                        enter
                     </button>
                 </form>
             </div>

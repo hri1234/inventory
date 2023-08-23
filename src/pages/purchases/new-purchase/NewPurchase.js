@@ -6,7 +6,8 @@ const NewPurchase = () => {
     return (
         <div className="newPurchase-container">
 
-            <div className="text">Nueva Compra</div>
+            <div className="text">
+New purchase</div>
 
         </div>
     );

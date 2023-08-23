@@ -69,19 +69,20 @@ const AccessValidation = () => {
           <div className="login-content">
               <form onSubmit={handleFormSubmit}>
                   <img src={avatar} alt="login-avatar" />
-                  <h2 className="title">Recupera tu cuenta</h2>
-                  <p>Introduce el código de acceso enviado a tu correo electrónico</p>
+                  <h2 className="title">recover your account</h2>
+                  <p>Enter the access code sent to your email</p>
                   <div className="input-div one">
                       <div className="icon">
                           <FontAwesomeIcon icon={faUser} className="i" />
                       </div>
                       <div className="div">
-                          <h5>Código de acceso</h5>
+                          <h5>Access code</h5>
                           <input type="text" minlength="4" maxlength="4" className="input" value={inputCode} onChange={handleInputChange} required />
                       </div>
                   </div>
                   <button type="submit" className="btn">
-                      Enviar
+                     
+To send
                   </button>
               </form>
           </div>

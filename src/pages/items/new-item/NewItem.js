@@ -6,12 +6,12 @@ const NewItem = () => {
 
     return (
         <div className="newItem-container">
-            <div className="text">Nuevo Artículo</div>
+            <div className="text">New items</div>
             <div className="form-container">
                 <form>
                     <div className="grid-form">
                         <div className="form-item">
-                            <label htmlFor="name">Nombre</label>
+                            <label htmlFor="name">name</label>
                             <input className="input" type="text" id="name" maxlength="45" required />
                         </div>
 
@@ -21,34 +21,37 @@ const NewItem = () => {
                                 <input className="input" type="number" min="0" id="stock" required />
                             </div>
                             <div className="form-item">
-                                <label htmlFor="weight">Peso</label>
+                                <label htmlFor="weight">Weight</label>
                                 <input className="input" type="text" id="weight" maxlength="15" required />
                             </div>
                         </div>
 
                         <div className="form-item">
-                            <label htmlFor="brand">Marca</label>
+                            <label htmlFor="brand">Brand</label>
                             <input className="input" type="text" id="brand" maxlength="45" required />
                         </div>
 
                         <div className="two-together">
                             <div className="form-item">
-                                <label htmlFor="purchasePrice">Precio compra</label>
+                                <label htmlFor="purchasePrice">purchase price</label>
                                 <input className="input" type="number" id="purchasePrice" required />
                             </div>
                             <div className="form-item">
-                                <label htmlFor="salePrice">Precio venta</label>
+                                <label htmlFor="salePrice">
+Sale price</label>
                                 <input className="input" type="number" id="salePrice" required />
                             </div>
                         </div>
 
                         <div className="form-item">
-                            <label htmlFor="provider">Proveedor</label>
+                            <label htmlFor="provider">Supplier</label>
                             <input className="input" type="text" id="provider" maxlength="45" required />
                         </div>
 
                         <div className="form-item">
-                            <label htmlFor="category">Categoría</label>
+                            <label htmlFor="category">
+                            Category
+                            </label>
                             <input className="input" type="text" id="category" maxlength="45" required />
                         </div>
 
@@ -56,7 +59,8 @@ const NewItem = () => {
 
                     <div className="button-container">
                         <button type="submit" className="btn">
-                            Crear
+                            
+Create
                         </button>
                     </div>
                 </form>

@@ -16,13 +16,13 @@ const Items = () => {
     return (
         <div className="items-container">
 
-            <div className="text">Artículos</div>
+            <div className="text">articles</div>
 
             <div className="options">
                 <SearchBox onSearch={handleSearch} />
                 <Link to="/new-item" class="add-box">
                     <FontAwesomeIcon icon={faPlus} className="icon" />
-                    <span class="text">Nuevo artículo</span>
+                    <span class="text">new item</span>
                 </Link>
             </div>
 
@@ -31,14 +31,14 @@ const Items = () => {
                     <thead>
                         <tr>
                             <th>ID</th>
-                            <th>NOMBRE</th>
-                            <th>MARCA</th>
+                            <th>NAME</th>
+                            <th>brand</th>
                             <th>STOCK</th>
-                            <th>PRECIO-COMPRA</th>
-                            <th>PRECIO-VENTA</th>
-                            <th>PESO</th>
-                            <th>PROVEEDOR</th>
-                            <th>ACCIONES</th>
+                            <th>PRICE-PURCHASE</th>
+                            <th>SALE PRICE</th>
+                            <th>WEIGHT</th>
+                            <th>SUPPLIER</th>
+                            <th>action</th>
                         </tr>
                     </thead>
                     <tbody>
